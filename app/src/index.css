@@ -1,0 +1,111 @@
+body {
+  background: LINEAR-GRADIENT(TO RIGHT, RGB(255, 0, 136), RGB(0, 194, 103));;
+  display: flex;
+  font-family: 'Muli', sans-serif;
+}
+
+.container {
+  display: flex;
+}
+
+.contract, .existing-contracts {
+  margin: 20px;
+  display: inline-block;
+  padding: 40px;
+  border: 3px solid black;
+  border-radius: 5px;
+  background-color: rgba(0, 0, 0, .5);
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+  .existing-contracts > div > div {
+    color: rgb(10, 228, 10);
+    margin: 20px;
+    display: inline-block;
+    padding: 40px;
+    border: 3px solid black;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 0, .5);
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;}
+
+    .existing-contracts > div {
+      background-color: rgba(255, 255, 255, .1);
+      display: flex;
+      flex-direction: column;
+      border-radius: 10px;
+    }
+  
+
+h1 {
+  margin: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #eee;
+  color: white;
+}
+
+label {
+  display: flex;
+  flex-direction: column;
+  text-transform: uppercase;
+  color: #aaa;
+  margin: 20px;
+}
+
+input[type="text"] {
+  padding: 6px;
+  font-size: 18px;
+  border-radius: 5px;
+  background-color: black;
+  color: rgb(8, 242, 74);
+}
+
+.button {
+  background-color: black;
+  border-radius: 10px;
+  color: orange;
+  text-align: center;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin: 20px;
+  padding: 9px 25px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  cursor: pointer;
+}
+
+.existing-contract ul {
+  padding: 10px;
+  margin: 20px;
+  background-color: rgba(255, 255, 255, .2);
+  border-radius: 10px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.existing-contract ul > div {
+  .existing-contract ul {
+    padding: 10px;
+    margin: 20px;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  }
+}
+
+.existing-contract ul > li {
+  list-style: none;
+  display: flex;
+  margin: 10px;
+  color: rgb(253, 184, 10);
+}
+
+.existing-contract ul > li > div {
+  margin: 0 5px;
+}
+
+.existing-contract ul > li > :first-child {
+  font-weight: bold;
+}
+
+.existing-contract .complete {
+  color: #5aa75a;
+  text-align: center;
+}
