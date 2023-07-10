@@ -1,7 +1,7 @@
 import { ethers } from 'ethers';
 import EscrowList from '../artifacts/contracts/EscrowList.sol/EscrowList.json';
 
-const contractAddress = "0x76cAe033838845fBe7314B23471Ff8b8FDC5A33a";
+const contractAddress = "0x5FbDB2315678afecb367f032d93F642f64180aa3";
 
 export async function createContract(signer) {
     return new ethers.Contract(contractAddress, EscrowList.abi, signer)
